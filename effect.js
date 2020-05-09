@@ -192,7 +192,7 @@ $('document').ready(function () {
         });
         var i;
         function msgLoop(i) {
-            $("p:nth-child(" + i + ")").fadeOut('slow').delay(4200).promise().done(function () {
+            $("p:nth-child(" + i + ")").fadeOut('slow').delay(1200).promise().done(function () {
                 i = i + 1;
                 $("p:nth-child(" + i + ")").fadeIn('slow').delay(4500);
                 if (i == 50) {
